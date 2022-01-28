@@ -6,6 +6,17 @@ web/app/upgrade
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 
+# Themes
+themes/*
+!themes/musi/
+
+# Plugins
+plugins/*
+!plugins/advanced-custom-fields/
+
+# uploads
+uploads/
+
 # WordPress
 web/wp
 web/.htaccess
