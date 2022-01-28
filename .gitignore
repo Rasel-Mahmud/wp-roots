@@ -7,8 +7,10 @@ web/app/uploads/*
 !web/app/uploads/.gitkeep
 
 # Themes
-themes/*
-!themes/musi/
+themes/twentytwenty/
+themes/twentytwentyone/
+themes/twentytwentytwo/
+
 
 # Plugins
 plugins/*
