@@ -4,7 +4,7 @@ phases:
   install:
     runtime-versions:
         php: 7.3
-        node: 16.13.2
+        nodejs: 16.13.2
   pre_build:
     commands:
       - echo Running Pre-Build script...
