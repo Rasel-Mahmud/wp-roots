@@ -18,6 +18,7 @@ phases:
       - pwd
       - npm install
       - composer install
+      - ls
   post_build:
     commands:
       - echo Running post_build...
