@@ -2,13 +2,13 @@
 This file is responsible only for providing theme information that are displayed
 in `Apperance > Themes`. Do not write in here any CSS declarations.
 
-Theme Name: {{ theme.name }}
-Theme URI: {{ theme.url }}
-Description: {{ theme.description }}
-Version: {{ theme.version }}
-Author: {{ theme.author }}
-Author URI: {{ theme.author.url }}
-Text Domain: {{ theme.textdomain }}
+Theme Name: Musi
+Theme URI: https://rasel-portfolio.com
+Description: This is a simple barebone theme
+Version: 1.0.0
+Author: Rasel Mahmud
+Author URI: http://rasel-portfolio.com
+Text Domain: musi
 License: GPLv2 License
 License URI: https://wordpress.org/about/gpl/
 */

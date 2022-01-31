@@ -14,9 +14,6 @@ themes/twentytwentytwo/
 # Upgrade
 upgrade/
 
-# Wp-Content
-index.php
-
 # Plugins
 plugins/*
 !plugins/advanced-custom-fields/
