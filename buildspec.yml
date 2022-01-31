@@ -18,10 +18,11 @@ phases:
       - pwd
       - npm install
       - composer install
+      - npm run prod
+      - rm -rf ./node_modules
       - ls
   post_build:
     commands:
-      - echo Running post_build...
       - echo Build completed on `date`
 artifacts:
     files: "**/*"
