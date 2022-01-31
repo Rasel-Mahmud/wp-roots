@@ -12,6 +12,7 @@ phases:
       - cd /themes/musi
   build:
     commands:
+      - echo `pwd`
       - echo Running Build...
       - npm install
       - composer install
