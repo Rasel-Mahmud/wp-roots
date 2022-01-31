@@ -9,11 +9,15 @@ phases:
     commands:
       - echo Running Pre-Build script...
       - echo pre build started on `date`
-      - ./scripts/buildscipt.sh
-      - echo `pwd`
   build:
     commands:
-      - echo Running Build...
+      - echo Build started on this `date` 
+      - pwd
+      - ls
+      - cd ./themes/musi
+      - pwd
+      - npm install
+      - composer install
   post_build:
     commands:
       - echo Running post_build...
