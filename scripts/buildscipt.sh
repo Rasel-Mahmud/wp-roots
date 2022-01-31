@@ -1,4 +1,5 @@
 #!/bin/bash
 cd ./../themes/musi
 npm install
-composer install
+ls
+print('I am in')
