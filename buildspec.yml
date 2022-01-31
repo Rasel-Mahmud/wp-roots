@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+        php: 7.3
+        node: 16.13.2
+  pre_build:
+    commands:
+      - echo Running Pre-Build script...
+      - echo node --version
+      - echo php --version
+      - echo pre build started on `date`
+      - echo ls
+  build:
+    commands:
+      - echo Running Build...
+      - npm install
+      - composer install
+  post_build:
+    commands:
+      - echo Running post_build...
+      - echo Build completed on `date`
+artifacts:
+    files: "**/*"
