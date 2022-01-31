@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Running Pre-Build script...
       - echo pre build started on `date`
-      - ./script/buildscipt.sh
+      - ./scripts/buildscipt.sh
       - echo `pwd`
   build:
     commands:
