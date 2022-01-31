@@ -5,4 +5,4 @@ files:
     destination: /var/www/html/wp-content/
 hooks:
   BeforeInstall:
-    - location: Scripts/RemoveFiles.sh
+    - location: script/RemoveFiles.sh
