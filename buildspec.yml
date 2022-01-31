@@ -8,8 +8,6 @@ phases:
   pre_build:
     commands:
       - echo Running Pre-Build script...
-      - echo node --version
-      - echo php --version
       - echo pre build started on `date`
       - echo ls
   build:
