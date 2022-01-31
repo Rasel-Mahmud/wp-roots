@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Running Pre-Build script...
       - echo pre build started on `date`
-      - cd /themes/musi
+      - echo `pwd`
   build:
     commands:
       - echo `pwd`
