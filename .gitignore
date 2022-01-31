@@ -11,10 +11,16 @@ themes/twentytwenty/
 themes/twentytwentyone/
 themes/twentytwentytwo/
 
+# Upgrade
+upgrade/
+
+# Wp-Content
+index.php
 
 # Plugins
 plugins/*
 !plugins/advanced-custom-fields/
+!plugins/index.php
 
 # uploads
 uploads/
