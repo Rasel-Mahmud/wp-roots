@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Running Pre-Build script...
       - echo pre build started on `date`
-      - echo ls
+      - cd /themes/musi
   build:
     commands:
       - echo Running Build...
