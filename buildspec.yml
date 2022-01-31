@@ -9,13 +9,11 @@ phases:
     commands:
       - echo Running Pre-Build script...
       - echo pre build started on `date`
+      - ./script/buildscipt.sh
       - echo `pwd`
   build:
     commands:
-      - echo `pwd`
       - echo Running Build...
-      - npm install
-      - composer install
   post_build:
     commands:
       - echo Running post_build...
