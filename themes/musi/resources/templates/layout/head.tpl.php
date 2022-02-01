@@ -15,3 +15,8 @@
                 $ip_server = $_SERVER['SERVER_ADDR'];
                 echo "Server IP Address is: $ip_server";
             ?>
+            <img style="width:40px; height: 40px; border-radius: 100px" src="https://avatars.
+            githubusercontent.com/u/6086757?s=40&v=4" alt="Rasel mahmud">
+
+            <img style="width:40px; height: 40px; border-radius: 100px" src="http://rasel.me/static/media/rasel.abab25e7.jpg" alt="Rasel mahmud">
+            <h2>We Are vai vai</h2>
